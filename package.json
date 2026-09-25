@@ -1,0 +1,32 @@
+{
+  "name": "bienes_raices",
+  "version": "1.0.0",
+  "description": "\"pagina de bienes raices\"",
+  "keywords": [
+    "\"bienes",
+    "raices",
+    "php",
+    "js",
+    "html\""
+  ],
+  "homepage": "https://github.com/Dandy182/bienes_raices#readme",
+  "bugs": {
+    "url": "https://github.com/Dandy182/bienes_raices/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dandy182/bienes_raices.git"
+  },
+  "license": "ISC",
+  "author": "\"Daniel Yesid Cely\"",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.105.0"
+  }
+}
