@@ -14,7 +14,7 @@ const routes = {
 
 
 export function compilarCss(done){
-    src('./src/scss/**/*.scss')
+    src(routes.styles)
         .pipe(sourceMaps.init())
         .pipe(sass({style:'compressed'}).on('Error', sass.logError))
         .pipe(sourceMaps.write())
