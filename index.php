@@ -9,5 +9,9 @@
     <body>
         <?php include "../bienes_raices/includes/layout/header.php"?>
 
+
+
+        <?php include "../bienes_raices/includes/layout/footer.php"?>
+
     </body>
 </html>
