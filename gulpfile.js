@@ -23,8 +23,6 @@ export function compilarCss(done){
 }
 
 
-
-
 export function dev(){
     watch(`${routes.styles}`, compilarCss)
 }
