@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./build/css/app.css">
     </header>
     <body>
-        <?php include "../bienes_raices/includes/layout/header.php"?>
+        <?php include "../bienes_raices/includes/layout/header.php";?>
 
 
 
