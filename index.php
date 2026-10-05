@@ -7,11 +7,12 @@
         <link rel="stylesheet" href="./build/css/app.css">
     </header>
     <body>
-        <?php include "../bienes_raices/includes/layout/header.php"?>
+        <?php var_dump($_SERVER["SCRIPT_NAME"])?>
+        <?php include "../bienes_raices/includes/template/header.php"?>
 
 
 
-        <?php include "../bienes_raices/includes/layout/footer.php"?>
+        <?php include "../bienes_raices/includes/template/footer.php"?>
 
     </body>
 </html>
