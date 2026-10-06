@@ -1,3 +1,5 @@
+@use './variables' as v;
+
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -11,6 +13,7 @@ html{
 
 body{
     font-size: 1.2rem;
+    font-family: v.$fuente_principal;
 }
 
 .contenedor{
@@ -28,6 +31,5 @@ a{
 
 h1{
     font-size: 3rem;
-
     margin: 0;
 }

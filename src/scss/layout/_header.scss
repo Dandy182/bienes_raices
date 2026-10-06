@@ -1,8 +1,9 @@
 @use '../globals/variables' as v;
-
+@use '../globals/mixings' as m;
 
 .header{
     background-color: v.$grisOscuro;
+    padding: 1rem 0;
 }
 
 .header.inicio{
@@ -10,4 +11,31 @@
     background-position: top center;
     background-repeat: no-repeat;
     height: 600px;
+}
+
+.encabezado{
+    @include m.tablet(space-between, center );
+    h1{
+        color:v.$blanco;
+        font-weight:100;
+        text-transform: uppercase;
+        span{
+            font-weight: 600;
+        }
+    }
+}
+
+.navegacion{
+    @include m.tablet(space-between, center);
+    a{
+        color:v.$blanco;
+        text-transform: capitalize;
+        font-weight: v.$delgada;
+        &:hover{
+            color:v.$verde;
+        }
+        &.active{
+            color: v.$amarillo;
+        }
+    }
 }

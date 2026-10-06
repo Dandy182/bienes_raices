@@ -1,0 +1,11 @@
+@use './variables' as v;
+
+@mixin tablet($justify-content:auto, $align-items:auto) {
+    @media only screen and (min-width: v.$tablet){
+        display: flex;
+        justify-content: $justify-content;
+        gap:2rem;
+        align-items: $align-items;
+        @content;
+    }
+}
