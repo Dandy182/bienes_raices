@@ -1,7 +1,7 @@
     <footer class="footer">
         <div class="contenedor">
-             <div class="contenedor encabezado">
-                <a href="index.php"><h1>Bienes <span>Raices</span></h1></a>
+             <div class="contenedor contenido__footer">
+                <a href="index.php"><h1 class="marca">Bienes<span>Raices</span></h1></a>
 
                 <nav class="navegacion principal">
                     <a href="nosotros.php" class="<?php echo($inicio ==='/nosotros.php')? 'active': ''?>">Nosotros</a>
@@ -13,7 +13,7 @@
             </div> 
 
         </div>
-        <p>Copyright Dandy182 2026</p>
+        <p class="copy">Copyright Dandy182 - 2026 &copy;</p>
     </footer>
     </body>  
 </html>

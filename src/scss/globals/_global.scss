@@ -14,12 +14,21 @@ html{
 body{
     font-size: 1.2rem;
     font-family: v.$fuente_principal;
+    max-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .contenedor{
     width: 1200px;
     max-width: 95%;
     margin: 0 auto;
+}
+
+.hidden{
+    display: none;
 }
 
 a{
@@ -32,4 +41,10 @@ a{
 h1{
     font-size: 3rem;
     margin: 0;
+}
+
+h2{
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: v.$delgada;
 }

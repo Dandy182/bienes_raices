@@ -1,0 +1,20 @@
+@use '../globals/variables' as v;
+@use '../globals/mixings' as m;
+
+
+.footer{
+    background-color: v.$grisOscuro;
+    padding: 2rem 0;
+}
+.copy{
+    text-align: center;
+    color:v.$blanco;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.contenido__footer{
+    @include m.tablet(space-between, center){
+    }
+}
