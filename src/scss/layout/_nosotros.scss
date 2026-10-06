@@ -1,0 +1,31 @@
+@use '../globals/variables' as v;
+@use '../globals/mixings' as m;
+
+.nosotros__iconos{
+    padding: 2rem
+}
+
+.servicios{
+    @include m.tablet(space-between, center);
+    padding:0;
+}
+
+.servicio{
+    list-style: none;
+    img{
+        height: 150px;
+        margin: 0 auto;
+        display: block;
+    }
+    h3{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: v.$delgada;
+        text-transform: uppercase;
+    }
+    .content__servicios{
+        font-size:1.8rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+}

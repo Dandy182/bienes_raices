@@ -5,5 +5,8 @@
      
      ?>
 
+<?php include './includes/template/nosotros_icons.php' ?>
+
+
 
 <?php include './includes/template/footer.php'?>
