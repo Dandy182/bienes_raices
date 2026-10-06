@@ -1,6 +1,8 @@
-<footer class="footer">
-    <div class="contenedor"> 
+    <footer class="footer">
+        <div class="contenedor"> 
 
-        <p>Copyright Dandy182 2026</p>
-    </div>
-</footer>
+            <p>Copyright Dandy182 2026</p>
+        </div>
+    </footer>
+    </body>  
+</html>

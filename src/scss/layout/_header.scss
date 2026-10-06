@@ -1,4 +1,11 @@
+@use '../globals/variables' as v;
+
+
 .header{
+    background-color: v.$grisOscuro;
+}
+
+.header.inicio{
     background-image: url('/src/img/header.jpg');
     background-position: top center;
     background-repeat: no-repeat;
