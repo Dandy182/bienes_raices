@@ -15,6 +15,10 @@
 }
 
 .ventajas{
-    padding: 1rem 0;
+    padding: 1rem 2rem;
     display: flex !important;
+    .item{
+        display: flex;
+        gap:2rem;
+    }
 }

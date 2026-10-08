@@ -7,7 +7,7 @@
                 <h2>Casa de lujo en el lago</h2>
                 <p>Casa en el lago con excelente vista, acabados de lujo con excelente precio</p>
                 <span>$3'000.000</span>
-                <ul>
+                <ul class="ventajas">
                     <li class="item"><img src="/src/img/icono_wc.svg" alt="WC"><p>3</p></li>
                     <li class="item"><img src="/src/img/icono_dormitorio.svg" alt="WC"><p>3</p></li>
                     <li class="item"><img src="/src/img/icono_estacionamiento.svg" alt="WC"><p>2</p></li>
@@ -22,7 +22,7 @@
                 <h2>Casa Terminados de Lujo</h2>
                 <p>Casa en el lago con excelente vista, acabados de lujo con excelente precio</p>
                 <span>$3'000.000</span>
-                <ul>
+                <ul class="ventajas">
                     <li class="item"><img src="/src/img/icono_wc.svg" alt="WC"><p>3</p></li>
                     <li class="item"><img src="/src/img/icono_dormitorio.svg" alt="WC"><p>3</p></li>
                     <li class="item"><img src="/src/img/icono_estacionamiento.svg" alt="WC"><p>2</p></li>
