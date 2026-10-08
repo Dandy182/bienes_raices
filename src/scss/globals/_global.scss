@@ -75,12 +75,24 @@ p{
 .btn{
     padding: 1rem;
     text-transform: uppercase;
+    color:v.$blanco;
+    font-weight: v.$bold;
+    font-size: 1.8rem;
 }
 
 .btn__naranja{
     background-color: v.$amarillo;
-    color:v.$blanco;
-    font-weight: v.$bold;
-    font-size: 1.8rem;
 
+}
+
+.btn__verde{
+    background-color: v.$verde;
+    color:v.$blanco;
+}
+
+.btn_1{
+    display: block;
+    width: 400px;
+    max-width: 90%;
+    margin: 1rem auto;
 }

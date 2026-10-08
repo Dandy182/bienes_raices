@@ -15,10 +15,14 @@
 }
 
 .ventajas{
-    padding: 1rem 2rem;
+    width: 80%;
     display: flex !important;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 0 auto;
     .item{
         display: flex;
-        gap:2rem;
+        gap:1rem;
+        padding: 1rem;
     }
 }
