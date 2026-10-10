@@ -27,10 +27,10 @@
     </div>
     <div class="testimonialesIntro">
         <h2>Testimoniales</h2>
-        <blockquote>
+        <blockquote class="testimonial">
             <p>
                 El personal de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas</p>
-                <p>- Juan De La Torre</p>
+                <p class="autorTestimonial">- Juan De La Torre</p>
         </blockquote>
     </div>
 </section>

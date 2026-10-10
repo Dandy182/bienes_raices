@@ -2,14 +2,12 @@
 @use '../globals/mixings' as m;
 
 .blog__testimoniales{
-    @include m.tablet(space-between, center){
+    @include m.tablet(space-between, top){
         .blogIntro, .testimonialesIntro{
             flex-basis: calc(50% - 1rem);
         }
     }
 }
-
-
 
 .entrada__blog{
     margin:1rem 0;
@@ -48,7 +46,35 @@
             color:v.$amarillo;
         }
 
+    }
+}
 
+.testimonial{
+    background-color: v.$verde;
+    padding: 2rem 1rem 2rem 3rem;
+    border-radius: 15px;
+    max-width: 80%;
+    position: relative;
+    p{
+        line-height: 2;
+        color:v.$blanco;
+        font-weight: 100;
+        font-size: 2.5rem;
+        margin-left:3rem ;
+    }
+    &:before{
+        content:"";
+        width: 50px;
+        height: 50px;
+        display: block;
+        background-image: url('/src/img/comilla.svg');
+        position: absolute;
+        top: 27px;
+        left: 20px;
+    }
 
+    .autorTestimonial{
+        text-align: right;
+        font-size: 2rem;
     }
 }
