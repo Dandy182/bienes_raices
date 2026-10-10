@@ -1,0 +1,54 @@
+@use '../globals/variables' as v;
+@use '../globals/mixings' as m;
+
+.blog__testimoniales{
+    @include m.tablet(space-between, center){
+        .blogIntro, .testimonialesIntro{
+            flex-basis: calc(50% - 1rem);
+        }
+    }
+}
+
+
+
+.entrada__blog{
+    margin:1rem 0;
+
+    @include m.tablet(space-evenly, center){
+        gap:1rem;
+
+    }
+    
+    @media only screen and (min-width:768px){
+            .imagen__blog{
+                max-width: 35%;
+
+        }
+    }
+
+    .content_entrada__blog{
+        h3, p{
+            text-align: left;
+            color:v.$negro;
+
+        }
+
+        h3{
+            &::after{
+                content: '';
+                background-color: v.$verde;
+                margin-top:1rem;
+                width: 150px;
+                height: 5px;
+                display: block;
+            }
+        }
+
+         p span{
+            color:v.$amarillo;
+        }
+
+
+
+    }
+}
