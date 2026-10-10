@@ -1,6 +1,30 @@
 @use '../globals/variables' as v;
 @use '../globals/mixings' as m;
 
+.contenido__nosotros{
+    @include m.tablet(space-between, top){
+    
+    }
+
+}
+
+
+.info__sobreNosotros{
+    width: 50%;
+    h3{
+        text-align: center;
+        @include m.tablet(){
+            text-align: left;
+        }
+    }
+
+    p{
+        line-height: 2;
+        font-size: 2rem;
+    }
+
+}
+
 
 
 .servicio{

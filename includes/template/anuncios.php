@@ -46,5 +46,5 @@
             </div>
        </li>
     </ul>
-    <a href="anuncios.php" class="btn btn__verde btn_1">Ver mas</a>
+    <a href="anuncios.php" class="btn btn__verde btn_1 <?php echo($inicio ==='/index.php') ? '' : 'hidden'?> ">Ver mas</a>
 </section>

@@ -5,6 +5,8 @@
      
      ?>
 
+<?php include './includes/template/nosotros.php'?>
+
 <?php include './includes/template/nosotros_icons.php' ?>
 
 
