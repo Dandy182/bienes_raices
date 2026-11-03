@@ -4,8 +4,11 @@
 
 ?>
 
+<main class="contenedor">
+    <h1>Crear</h1>
 
-<h1>Crear</h1>
+</main>
+
 
 
 <?php include '../../includes/template/footer.php'?>
