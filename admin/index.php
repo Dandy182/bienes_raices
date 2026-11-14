@@ -4,7 +4,7 @@
 
     ?>
     <main class="contenedor">
-        <h1>Administrador de Bienes Raices</h1>
+        <h2>Administrador de Bienes Raices</h2>
     </main>
 
 

@@ -11,7 +11,7 @@
         <header class="header <?php echo($inicio === '/index.php')? 'inicio': ''?>">
             <div class="contenedor content_header">
                 <div class="encabezado">
-                    <a href="index.php"><h1 class='marca'>Bienes <span>Raices</span></h1></a>
+                    <a href="/index.php"><h1 class='marca'>Bienes <span>Raices</span></h1></a>
                     
                     <nav class="navegacion principal">
                         <a href="nosotros.php" class="<?php echo($inicio ==='/nosotros.php')? 'active': ''?>">Nosotros</a>
