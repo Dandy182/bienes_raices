@@ -5,7 +5,6 @@ import sourceMaps from 'gulp-sourcemaps';
 
 const sass = gulpSass(dartSass);
 
-
 /* rutas */
 const routes = {
     styles:'./src/scss/**/*.scss',
@@ -26,3 +25,4 @@ export function compilarCss(done){
 export function dev(){
     watch(`${routes.styles}`, compilarCss)
 }
+
